@@ -1,4 +1,4 @@
-count = []
+# count = []
 
 
 def print_moves(start, end):
@@ -15,7 +15,7 @@ def print_moves(start, end):
     if end == 3:
         e = "C"
     print(s, "->", e)
-    count.append(1)
+    # count.append(1)
 
 
 def hanoi(n, start, end):
@@ -37,7 +37,6 @@ def factorial(n):
         return n * factorial(n - 1)
 
 
-
 def linear_recursive(array, item, length):
     if array[length] == item:
         return "found"
@@ -45,4 +44,3 @@ def linear_recursive(array, item, length):
         if length - 1 >= 0:
             return linear_recursive(array, item, length - 1)
         return "not found"
-
