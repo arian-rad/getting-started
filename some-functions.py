@@ -1,6 +1,3 @@
-# count = []
-
-
 def print_moves(start, end):
     if start == 1:
         s = "A"
@@ -15,7 +12,6 @@ def print_moves(start, end):
     if end == 3:
         e = "C"
     print(s, "->", e)
-    # count.append(1)
 
 
 def hanoi(n, start, end):
